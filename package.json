@@ -1,25 +1,26 @@
 {
-  "name": "template-cli",
-  "version": "1.0.0",
-  "description": "this is a cli for installing storeino templates",
-  "main": "index.js",
+  "name": "@storeino/template-cli",
+  "version": "1.0.1",
+  "description": "This is a CLI tool for installing Storeino templates for development.",
+  "homepage": "https://storeino.com",
   "type": "module",
-  "bin": {
-    "template-cli": "./index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Abdelali-ErRafik/template-cli.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "@storeino/template-cli": "./index.js"
   },
   "author": "storeino",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Abdelali-ErRafik/template-cli/issues"
   },
-  "homepage": "https://github.com/Abdelali-ErRafik/template-cli#readme",
   "dependencies": {
     "inquirer": "^8.0.0"
   },
