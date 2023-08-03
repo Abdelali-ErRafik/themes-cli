@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+import chalk from 'chalk';
 import inquirer from 'inquirer';
 import * as fs from 'fs';
 import { dirname } from 'path';
@@ -36,4 +36,19 @@ inquirer.prompt(QUESTIONS).then(answers => {
   fs.mkdirSync(`${CURR_DIR}/${projectName}`);
 
   createDirectoryContents(templatePath, projectName);
+
+  console.log(
+    "\nTo get started:\n\n" +
+    chalk.blue(
+      "\tcd "+ projectName +"\n\tnpm install\n\tnpm run dev\n"
+    )
+  );
+
+  console.log(
+    "To build & start for production:\n\n" +
+    chalk.blue(
+      "\tcd "+ projectName +"\n\tnpm run build\n\tnpm run start\n"
+    )
+  );
+
 });
