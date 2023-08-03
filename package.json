@@ -1,6 +1,6 @@
 {
   "name": "@storeino/template-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a CLI tool for installing Storeino templates for development.",
   "homepage": "https://storeino.com",
   "type": "module",
@@ -21,6 +21,16 @@
   "bugs": {
     "url": "https://github.com/Abdelali-ErRafik/template-cli/issues"
   },
+  "keywords": [
+    "cli",
+    "template-cli",
+    "template",
+    "storeino",
+    "theme",
+    "theme-cli",
+    "storeino-cli",
+    "storeino"
+  ],
   "dependencies": {
     "inquirer": "^8.0.0"
   },

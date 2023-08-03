@@ -1,0 +1,30 @@
+{
+  "name": "starter-theme",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@storeino/template-core": "^1.0.5",
+    "config": "^3.3.6",
+    "core-js": "^3.15.1",
+    "express": "^4.17.1",
+    "leaflet": "^1.9.3",
+    "nuxt": "^2.15.7",
+    "vue2-leaflet": "^2.7.1"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^0.7.1",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "eslint": "^8.42.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.14.1",
+    "postcss": "^8.3.5"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "env": "production",
+    "token": {
+        "clientId": "62612fa7b886da00a4d5ff2f-mysou9.storeino.com",
+        "clientSecret": "5sQBT8qDzsMehXRsKhAnWsSN"
+    }
+}

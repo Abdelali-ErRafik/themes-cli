@@ -1,0 +1,7 @@
+{
+    "env": "development",
+    "token": {
+        "clientId": "64ca71bd53e57422dfea253f-doc-store.storeino.world",
+        "clientSecret": "CeJ2IRX0gEMpIOJSBAdfTP2v"
+    }
+}
