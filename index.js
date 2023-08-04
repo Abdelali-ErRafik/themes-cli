@@ -8,19 +8,19 @@ import createDirectoryContents from './createDirectoryContents.js';
 const CURR_DIR = process.cwd();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const CHOICES = fs.readdirSync(`${__dirname}/templates`);
+const CHOICES = fs.readdirSync(`${__dirname}/themes`);
 
 const QUESTIONS = [
   {
-    name: 'project-choice',
+    name: 'theme-choice',
     type: 'list',
-    message: 'What project template would you like to generate?',
+    message: 'What theme do you want to generate?',
     choices: CHOICES,
   },
   {
-    name: 'project-name',
+    name: 'theme-name',
     type: 'input',
-    message: 'Project name:',
+    message: 'Theme name:',
     validate: function (input) {
       if (/^([A-Za-z\-\\_\d])+$/.test(input)) return true;
       else return 'Project name may only include letters, numbers, underscores and hashes.';
@@ -29,26 +29,23 @@ const QUESTIONS = [
 ];
 
 inquirer.prompt(QUESTIONS).then(answers => {
-  const projectChoice = answers['project-choice'];
-  const projectName = answers['project-name'];
-  const templatePath = `${__dirname}/templates/${projectChoice}`;
+  const themeChoice = answers['theme-choice'];
+  const themeName = answers['theme-name'];
+  const themePath = `${__dirname}/themes/${themeChoice}`;
 
-  fs.mkdirSync(`${CURR_DIR}/${projectName}`);
+  fs.mkdirSync(`${CURR_DIR}/${themeName}`);
 
-  createDirectoryContents(templatePath, projectName);
+  createDirectoryContents(themePath, themeName);
 
   console.log(
     "\nTo get started:\n\n" +
     chalk.blue(
-      "\tcd "+ projectName +"\n\tnpm install\n\tnpm run dev\n"
-    )
-  );
-
-  console.log(
-    "To build & start for production:\n\n" +
+      "\tcd "+ themeName +"\n\tnpm install\n\tnpm run dev\n"
+    )+
+    "\nTo build & start for production:\n\n" +
     chalk.blue(
-      "\tcd "+ projectName +"\n\tnpm run build\n\tnpm run start\n"
+      "\tcd "+ themeName +"\n\tnpm install\n\tnpm run build\n\tnpm run start\n"
     )
   );
-
+  
 });

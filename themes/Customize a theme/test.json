@@ -1,0 +1,48 @@
+[
+    {
+        "_id": "60e3721c62cfa801ea3fae07",
+        "quantity": 1,
+        "price": 270,
+        "upsell": {
+            "_id": "610945523e3913009dfb634e",
+            "name": null,
+            "value": 10,
+            "code": "perc",
+            "type": "percentage"
+        },
+        "parents": [
+            "60e3713262cfa801ea3fadd7"
+        ]
+    },
+    {
+        "_id": "60e3713262cfa801ea3fadd7",
+        "quantity": 1,
+        "price": 120,
+        "variant": {
+            "_id": "60e6c453c2738c033dd170b1"
+        }
+    },
+    {
+        "_id": "60e371eb62cfa801ea3fadfe",
+        "quantity": 1,
+        "price": 130,
+        "upsell": {
+            "_id": "60e45308700c9d0202e99967",
+            "name": null,
+            "value": 20,
+            "code": "free",
+            "type": "fixed_amount"
+        },
+        "parents": [
+            "60e371c962cfa801ea3fadf5"
+        ]
+    },
+    {
+        "_id": "60e371c962cfa801ea3fadf5",
+        "quantity": 1,
+        "price": 157,
+        "variant": {
+            "_id": "610bed3db2dd250080ffcd72"
+        }
+    }
+]

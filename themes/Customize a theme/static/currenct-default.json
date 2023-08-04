@@ -1,0 +1,306 @@
+{
+    "style": {
+        "primary_color": "#00825a"
+    },
+    "sections": {
+        "products": {
+            "add_to_cart": {
+                "active": true,
+                "text": "Add to cart"
+            },
+            "add_to_cart_to_checkout": false,
+            "add_to_wishlist": {
+                "active": true
+            },
+            "added_text": "Added",
+            "confirm_text": "Confirm"
+        },
+        "alerts": {
+            "added_to_cart": "Added to cart",
+            "added_to_wishlist": "Added to wishlist",
+            "removed_from_cart": "Removed from cart",
+            "removed_from_wishlist": "Removed from wishlist"
+        },
+        "header": {
+            "logo": null,
+            "icons": {
+                "cart": true,
+                "wishlist": true,
+                "account": false,
+                "search": true,
+                "language": true,
+                "currency": true
+            },
+            "menu": null
+        },
+        "footer": {
+            "about": "<h3>Experience Palest </h3> <p> Whether you are a livestock farmer or a farmer, a contractor or a forester: In the BayWa portal you will find a wide range of animal feed, seeds and crop protection - conventional or ecological  In addition, you will receive detailed information about our diverse advisory services, services, events and topics as well as about us, your BayWa. <br>Discover our diversity - digitally and on site </p>",
+            "methods": {
+                "title": "Our payment methods",
+                "visa": true,
+                "mastercard": true,
+                "transfer": true,
+                "cash": true
+            },
+            "social_media": {
+                "title": "Follow us",
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "youtube": "https://www.youtube.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "whatsapp": "https://web.whatsapp.com/",
+                "snapchat": "https://www.snapchat.com/",
+                "tiktok": "https://www.tiktok.com/"
+            },
+            "menu": null,
+            "copyright": {
+                "store_name": "Online store",
+                "text": "Copyright © __YEAR__. All rights reserved. <a href='//storeino.com'>storeino.com</a>"
+            }
+        },
+        "banner": {
+            "active": true,
+            "items": {
+                "item_0": {
+                    "image": null,
+                    "title": "Renal & Urology Nutrition News, Diet Tips",
+                    "description": "Greater consumption of healthful plant-based foods is associated with significantly reduced risks for advanced, lethal, and fatal prostate cancer, especially among men younger than 65 years",
+                    "button": {
+                        "active": true,
+                        "url": "/shop",
+                        "text": "Order now"
+                    }
+                }
+            },
+            "right": {
+                "active": true,
+                "image": null,
+                "url": "/shop"
+            }
+        },
+        "collections": {
+            "active": true,
+            "title": "Top collections",
+            "items": []
+        },
+        "products_1": {
+            "active": true,
+            "title": "Featured Products",
+            "collections": [],
+            "tags": "",
+            "show_more_text": "Discover more",
+            "show_more_url": "/shop"
+        },
+        "products_2": {
+            "active": true,
+            "title": "Clothes only",
+            "collections": [],
+            "tags": "",
+            "show_more_text": "Show more clothes",
+            "show_more_url": "/shop"
+        },
+        "products_3": {
+            "active": false,
+            "title": "Toys",
+            "collections": [],
+            "tags": ""
+        },
+        "products_4": {
+            "active": false,
+            "title": "Phone & Computers",
+            "collections": [],
+            "tags": "",
+            "show_more_text": "More tech products",
+            "show_more_url": "/shop"
+        },
+        "products_5": {
+            "active": false,
+            "title": "Last Products",
+            "collections": [],
+            "tags": "",
+            "show_more_text": "Show more products",
+            "show_more_url": "/shop"
+        },
+        "posts": {
+            "active": true,
+            "title": "Latest News",
+            "items": [],
+            "button": {
+                "text": "More Details"
+            },
+            "show_more_text": "Show more blog posts"
+        },
+        "services": {
+            "active": true,
+            "title": "Our services",
+            "items": {
+                "delivery": {
+                    "text": "Fast delivery",
+                    "url": "#"
+                },
+                "satisfaction": {
+                    "text": "Satisfaction",
+                    "url": "#"
+                },
+                "quality": {
+                    "text": "Quality",
+                    "url": "#"
+                }
+            }
+        },
+        "product": {
+            "add_to_cart": {
+                "active": true,
+                "text": "Add to cart"
+            },
+            "buy_now": {
+                "active": true,
+                "text": "Buy now"
+            },
+            "related": {
+                "active": true,
+                "title": "Related products"
+            },
+            "upsell": {
+                "active": true,
+                "title": "Special offer for you"
+            },
+            "reviews": {
+                "active": true,
+                "title": "Our customers reviews"
+            },
+            "share_buttons": {
+                "active": true,
+                "title": "Share this product",
+                "whatsapp": true,
+                "facebook": true,
+                "twitter": true,
+                "linkedin": true
+            }
+        },
+        "post": {
+            "share_buttons": {
+                "title": "Share this post",
+                "whatsapp": true,
+                "facebook": true,
+                "twitter": true,
+                "linkedin": true
+            },
+            "related": {
+                "active": true,
+                "title": "Related posts"
+            }
+        },
+        "shop": {
+            "sidebar": {
+                "active": true,
+                "collections": {
+                    "active": true,
+                    "title": "Collections"
+                },
+                "prices": {
+                    "active": true,
+                    "title": "Prices"
+                },
+                "sizes": {
+                    "active": true,
+                    "title": "Sizes"
+                },
+                "colors": {
+                    "active": true,
+                    "title": "Colors"
+                },
+                "tags": {
+                    "active": true,
+                    "title": "Tags"
+                },
+                "brands": {
+                    "active": true,
+                    "title": "Brands"
+                }
+            },
+            "title": "Shop",
+            "description": "Find best selling products",
+            "empty_text": "No products found",
+            "sorts": {
+                "newest": "Newest",
+                "oldest": "Oldest",
+                "name_asc": "Name (A-Z)",
+                "name_desc": "Name (Z-A)",
+                "price_asc": "Price (lowest first)",
+                "price_desc": "Price (highest first)",
+                "rating_desc": "Rating (highest first)",
+                "rating_asc": "Rating (lowest first)"
+            },
+            "pagination": {
+                "limit": 12,
+                "next_text": "Next",
+                "prev_text": "Prev"
+            }
+        },
+        "blog": {
+            "active": true,
+            "sidebar": {
+                "active": true,
+                "categories": {
+                    "active": true,
+                    "title": "Categories"
+                },
+                "products": {
+                    "active": true,
+                    "title": "From shop"
+                }
+            },
+            "title": "Blog",
+            "description": "Our blog posts",
+            "sorts": {
+                "newest": "Newest",
+                "oldest": "Oldest",
+                "name_asc": "Name (A-Z)",
+                "name_desc": "Name (Z-A)",
+                "price_asc": "Price (lowest first)",
+                "price_desc": "Price (highest first)",
+                "rating_asc": "Rating (lowest first)",
+                "rating_desc": "Rating (highest first)"
+            },
+            "pagination": {
+                "limit": 12,
+                "next_text": "Next",
+                "prev_text": "Prev"
+            },
+            "empty_text": "No posts found"
+        },
+        "cart": {
+            "title": "Shopping cart",
+            "empty_text": "Your cart is empty",
+            "total_text": "Total",
+            "buttons": {
+                "checkout_text": "Place Order",
+                "back_to_shop_text": "Back to shop",
+                "show_back_to_shop": true
+            }
+        },
+        "wishlist": {
+            "title": "Your wishlist",
+            "empty_text": "Your wishlist is empty",
+            "buttons": {
+                "back_to_shop_text": "Back to shop"
+            }
+        },
+        "thanks": {
+            "title": "Thanks",
+            "description": "Thank you for your order",
+            "buttons": {
+                "back_to_shop_text": "Back to shop"
+            }
+        },
+        "_404": {
+            "title": "Page not found",
+            "description": "We are sorry, but the page you requested was not found",
+            "buttons": {
+                "back_to_shop_text": "Back to shop"
+            }
+        }
+    }
+}

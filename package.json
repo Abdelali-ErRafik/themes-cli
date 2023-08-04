@@ -1,12 +1,12 @@
 {
-  "name": "@storeino/template-cli",
-  "version": "1.0.4",
-  "description": "This is a CLI tool for installing Storeino templates for development.",
+  "name": "@storeino/themes-cli",
+  "version": "1.0.0",
+  "description": "This is a CLI tool for installing Storeino themes for development.",
   "homepage": "https://storeino.com",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Abdelali-ErRafik/template-cli.git"
+    "url": "git+https://github.com/Abdelali-ErRafik/themes-cli.git"
   },
   "main": "index.js",
   "scripts": {
@@ -14,16 +14,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "@storeino/template-cli": "./index.js"
+    "@storeino/themes-cli": "./index.js"
   },
   "author": "storeino",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Abdelali-ErRafik/template-cli/issues"
+    "url": "https://github.com/Abdelali-ErRafik/themes-cli/issues"
   },
   "keywords": [
     "cli",
-    "template-cli",
+    "themes-cli",
     "template",
     "storeino",
     "theme",

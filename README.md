@@ -1,4 +1,4 @@
-# Storeino template CLI Tool
+# Storeino themes CLI Tool
 
 This is a CLI for build storeino themes
 
@@ -6,7 +6,7 @@ This is a CLI for build storeino themes
 ## Getting started
 
 ```
-npx @storeino/template-cli
+npx @storeino/themes-cli
 ```
 
 ## Packages Used
