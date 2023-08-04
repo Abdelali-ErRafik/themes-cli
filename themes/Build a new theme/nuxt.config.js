@@ -1,42 +1,35 @@
 import { plugins } from "@storeino/template-core";
 export default {
   head: {
-    title: 'starter-theme',
+    title: 'new-theme',
+    htmlAttrs: {
+      lang: 'en'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
-    link: []
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
   },
-  target: 'server',
   css: [
     '~/assets/css/icons.css',
-    '~/assets/css/main.css',
-    '~/assets/css/fontCss.css'
+    '~/assets/css/main.css'
   ],
-  plugins: [
-    ...plugins
+  plugins:[
+    ...plugins,
   ],
-  components: true,
-  buildModules: [
-    '@nuxtjs/tailwindcss',
-  ],
-  modules: [
-    '@nuxt/image',
-    '@nuxtjs/axios'
-  ],
-  axios: {},
-  pwa: {
-    manifest: {
-      lang: 'en'
-    }
-  },
   serverMiddleware: ['~/server/index'],
-  server: {
-    port: 3000,
-    host: '0.0.0.0'
+  components: true,
+  buildModules: [],
+  modules: [
+    '@nuxtjs/axios',
+  ],
+  axios: {
+    baseURL: '/',
   },
-  build: {
-  }
+  build: {}
 }

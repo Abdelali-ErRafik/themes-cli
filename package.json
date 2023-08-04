@@ -1,6 +1,6 @@
 {
   "name": "@storeino/themes-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a CLI tool for installing Storeino themes for development.",
   "homepage": "https://storeino.com",
   "type": "module",
