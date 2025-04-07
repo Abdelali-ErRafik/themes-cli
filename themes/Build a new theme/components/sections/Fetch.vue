@@ -8,30 +8,32 @@
   </div>
 </template>
 
-<script>
-  export default {
+<script setup lang="ts">
+import { ref, onMounted } from 'vue';
+import { useNuxtApp } from '#app';
 
-    data() {
-      return {
-        items: [],
-        loading: true
-      };
-    },
-    async fetch(){
-      let filter = { status: 'PUBLISH' };
-      await this.getProducts(filter);
-    },
-    methods: {
-      async getProducts(filter){
-        this.loading = true;
-        try{
-          const { data } = await this.$storeino.products.search(filter)
-          this.items = data.results
-        }catch(e){
-          console.log({e});
-        }
-        this.loading = false;
-      },
-    },
-  };
+const { $settings, $storeino }: any = useNuxtApp();
+
+const items = ref([]);
+
+const loading = ref(true);
+
+onMounted(() => {
+  fetchProducts();
+});
+
+async function fetchProducts() {
+  loading.value = true;
+  try {
+    const filter: any = { status: 'PUBLISH' };
+
+    const { data } = await $storeino.products.search(filter);
+
+    items.value = data.results;
+  } catch (error) {
+    console.error(error);
+  } finally {
+    loading.value = false;
+  }
+}
 </script>

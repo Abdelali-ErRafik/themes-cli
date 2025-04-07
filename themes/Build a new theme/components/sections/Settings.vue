@@ -8,16 +8,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      settings: null
-    }
-  },
-  mounted() {
-    this.settings = this.$settings
-    console.log(this.$settings)
-  }
-}
+<script setup lang="ts">
+import { useNuxtApp } from '#app';
+const { $settings }: any = useNuxtApp();
 </script>

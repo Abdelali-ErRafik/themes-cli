@@ -3764,7 +3764,7 @@
                     },
                     {
                       "name": "reload_text",
-                      "path": "temp.newField",
+                      "path": "sections._404.buttons.reload_text",
                       "type": "tc_input",
                       "translatable": true,
                       "value": "Try again"
@@ -4348,7 +4348,7 @@
               "value": "الرجوع الى المتجر"
             },
             {
-              "name": "temp.newField",
+              "name": "sections._404.buttons.reload_text",
               "value": "حاول ثانية"
             }
           ]
@@ -4909,7 +4909,7 @@
               "value": "retour à la boutique"
             },
             {
-              "name": "temp.newField",
+              "name": "sections._404.buttons.reload_text",
               "value": "Essayer à nouveau"
             }
           ]
@@ -5578,16 +5578,16 @@
           "title": "Page not found",
           "description": "We are sorry, but the page you requested was not found",
           "buttons": {
-            "back_to_shop_text": "Back to shop"
+            "back_to_shop_text": "Back to shop",
+            "reload_text": "Try again"
           }
         }
-      },
-      "temp": {
-        "newField": "Try again"
       }
     }
   },
-  "images": ["https://storeno.b-cdn.net/stores/2-2025/1739265496655.png"],
+  "images": [
+    "https://storeno.b-cdn.net/stores/2-2025/1739265496655.png"
+  ],
   "isActive": false,
   "autoRenew": false,
   "expiryDate": "2050-12-12T00:00:00.000Z",

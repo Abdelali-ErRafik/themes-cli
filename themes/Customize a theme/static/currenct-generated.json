@@ -568,7 +568,7 @@
           "value": "الرجوع الى المتجر"
         },
         {
-          "name": "temp.newField",
+          "name": "sections._404.buttons.reload_text",
           "value": "حاول ثانية"
         }
       ]
@@ -1129,7 +1129,7 @@
           "value": "retour à la boutique"
         },
         {
-          "name": "temp.newField",
+          "name": "sections._404.buttons.reload_text",
           "value": "Essayer à nouveau"
         }
       ]
@@ -1138,12 +1138,12 @@
   "sections": {
     "colors": {
       "primary": {
-        "color": "#045a62",
-        "text": "#045a62"
+        "color": "#b05103",
+        "text": "#b05103"
       },
       "secondary": {
-        "color": "#00afaa",
-        "text": "#00afaa"
+        "color": "#db7e06",
+        "text": "#db7e00"
       },
       "third": {
         "border": "#e5e7eb",
@@ -1242,7 +1242,7 @@
           "active": true,
           "title": "Happy Deals",
           "description": "Do not miss the current offers.",
-          "show_more_text": "See all offers",
+          "show_more_text": "See all Products",
           "show_more_url": "/shop",
           "collections": [],
           "items": [],
@@ -1253,7 +1253,7 @@
     "message_bar": {
       "active": true,
       "colors": {
-        "background_color": "#04393e",
+        "background_color": "#773d03",
         "text_color": "#d5c483"
       },
       "message": "<header class=\"page-header\">\n<div class=\"header content\">\n<div class=\"widget block block-static-block\">\n<div id=\"\" data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\" data-decoded=\"true\">\n<div class=\"annonce-wrappper\"><span class=\"main-txt\">Frais de livraison &agrave; partir de 15 Dhs</span></div>\n</div>\n</div>\n</div>\n</header>"
@@ -1261,7 +1261,7 @@
     "top_header": {
       "active": true,
       "colors": {
-        "background_color": "#08474e",
+        "background_color": "#954d04",
         "text_color": "#ffffff"
       },
       "phone": {
@@ -1282,7 +1282,7 @@
     },
     "header": {
       "colors": {
-        "background_color": "#0c5c64",
+        "background_color": "#b05903",
         "text_color": "#ffffff"
       },
       "logo": {
@@ -1325,7 +1325,7 @@
     },
     "footer": {
       "colors": {
-        "background_color": "#025c67",
+        "background_color": "#b95e04",
         "text_color": "#ffffff"
       },
       "social_media": {
@@ -1373,7 +1373,7 @@
     },
     "copyright": {
       "colors": {
-        "background_color": "#005058",
+        "background_color": "#934a01",
         "text_color": "#ffffff"
       },
       "text": "<p>Copyright &copy; __YEAR__. All rights reserved.</p>"
@@ -1381,7 +1381,7 @@
     "top_scroll": {
       "active": true,
       "colors": {
-        "background_color": "#00afaa",
+        "background_color": "#e4780c",
         "text_color": "#ffffff"
       }
     },
@@ -1389,7 +1389,7 @@
       "active": true,
       "colors": {
         "bg_color": "#ffffff",
-        "text_color": "#4c4c4c"
+        "text_color": "#ffffff"
       },
       "options": {
         "full_screen": true,
@@ -1403,12 +1403,12 @@
         "mobile_height": "380"
       },
       "slides": {
-        "item_1": {
+        "item_0": {
           "image": null,
-          "text_color": "#333333",
+          "text_color": "#ffffff",
           "position": "left",
-          "title": "Happy deals from 50$",
-          "description": "Only this week. Don’t miss...",
+          "title": "Add Title Here",
+          "description": "Add Description Here",
           "button": {
             "active": true,
             "text": "Shop now",
@@ -1425,26 +1425,6 @@
       },
       "items": {
         "item_0": {
-          "image": null,
-          "title": "Free Shipping",
-          "link": "/"
-        },
-        "item_1": {
-          "image": null,
-          "title": "Free Shipping",
-          "link": "/"
-        },
-        "item_2": {
-          "image": null,
-          "title": "Free Shipping",
-          "link": "/"
-        },
-        "item_3": {
-          "image": null,
-          "title": "Free Shipping",
-          "link": "/"
-        },
-        "item_4": {
           "image": null,
           "title": "Free Shipping",
           "link": "/"
@@ -1465,7 +1445,7 @@
       "active": true,
       "colors": {
         "background_color": "#d00606",
-        "text_color": "#333333"
+        "text_color": "#000000"
       },
       "content": {
         "title": "Our Happy Deals meetings",
@@ -1474,29 +1454,7 @@
       "items": {
         "item_0": {
           "image": null,
-          "text_color": "#333333",
-          "title": "End of year decoration",
-          "description": "Make your home perfect",
-          "button": {
-            "active": true,
-            "text": "Shop now",
-            "url": "/shop"
-          }
-        },
-        "item_1": {
-          "image": null,
-          "text_color": "#333333",
-          "title": "End of year decoration",
-          "description": "Make your home perfect",
-          "button": {
-            "active": true,
-            "text": "Shop now",
-            "url": "/shop"
-          }
-        },
-        "item_2": {
-          "image": null,
-          "text_color": "#333333",
+          "text_color": "#ffffff",
           "title": "End of year decoration",
           "description": "Make your home perfect",
           "button": {
@@ -1520,25 +1478,7 @@
       "items": {
         "item_0": {
           "image": null,
-          "title": "Fast Delivery",
-          "description": "Fast Delivery",
-          "url": "#"
-        },
-        "item_1": {
-          "image": null,
-          "title": "Fast Delivery",
-          "description": "Fast Delivery",
-          "url": "#"
-        },
-        "item_2": {
-          "image": null,
-          "title": "Fast Delivery",
-          "description": "Fast Delivery",
-          "url": "#"
-        },
-        "item_3": {
-          "image": null,
-          "title": "Fast Delivery",
+          "title": "Best Quality",
           "description": "Fast Delivery",
           "url": "#"
         }
@@ -1642,7 +1582,7 @@
         "rating_desc": "Rating (high to low)"
       },
       "pagination": {
-        "limit": "1",
+        "limit": "12",
         "previous_text": "Previous",
         "next_text": "Next"
       },
@@ -1746,7 +1686,7 @@
       "features": {
         "active": true,
         "colors": {
-          "background_color": "#0f766e",
+          "background_color": "#cd6504",
           "text_color": "#ffffff"
         },
         "item_0": {
@@ -1858,11 +1798,9 @@
       "title": "Page not found",
       "description": "We are sorry, but the page you requested was not found",
       "buttons": {
-        "back_to_shop_text": "Back to shop"
+        "back_to_shop_text": "Back to shop",
+        "reload_text": "Try again"
       }
     }
-  },
-  "temp": {
-    "newField": "Try again"
   }
 }

@@ -1,0 +1,18 @@
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdG9yZSI6eyJfaWQiOiI2NzQ1YTU4NDY4ZDkwYWY3MDEyM2QzMjAiLCJuYW1lIjoibWFya2V0bWFsbCIsInN1YmRvbWFpbiI6Im1hcmtldG1hbGwuc3RvcmVpbm8ud29ybGQifSwidXNlciI6eyJwb3NpdGlvbiI6IkFETUlOIiwiX2lkIjoiNjI1NDNiNDM1YWY3OGYwMDQ0YjU3YzdlIiwiZmlyc3RuYW1lIjoiYWJkZWxhbGkiLCJsYXN0bmFtZSI6InJhZmlrIiwiZW1haWwiOiJhYmRlbGFsaS5yYWZpazExQGdtYWlsLmNvbSJ9LCJjb21wYW55Ijp7InN0YXR1cyI6IlVOQ09NUExFVEVEIiwiX2lkIjoiNjI1NDNiNDM1YWY3OGYwMDQ0YjU3YzdjIiwibmFtZSI6InNvdTlpbm8ifSwidG9rZW5JZCI6Ijc3MTg3MERaRUFWSTg3Nzg4MVNLUklETCIsImlhdCI6MTczOTIwMzgxMCwiZXhwIjoxNzQwMDY3ODEwfQ.N3YOEYdPIh5ALTsHk-afJC9Kop5JsznxGiZRlRx0QT8
+
+###
+GET https://admin.storeino.world/stores/api/themes/search?name=marketmall
+X-Auth-Token: {{token}}
+
+###
+POST https://admin.storeino.world/stores/api/themes/update?name=marketmall
+Content-Type: application/json
+X-Auth-Token: {{token}}
+
+{
+     "team": {
+        "_id": "5f21374a175b5e8e309be241",
+        "name": "DEVELOPMENT",
+        "url": "https://market.storeino.com/storeino/"
+      }
+}

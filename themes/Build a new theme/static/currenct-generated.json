@@ -1,1 +1,37 @@
-{}
+{
+  "schema": {
+    "fields": {
+      "products": [],
+      "collections": [],
+      "images": [],
+      "menus": [],
+      "pages": [],
+      "brands": []
+    },
+    "ids": {
+      "collections": [],
+      "products": [],
+      "images": [],
+      "menus": [],
+      "pages": [],
+      "brands": []
+    }
+  },
+  "settings": {
+    "tabs": [],
+    "currentLang": null
+  },
+  "current": {
+    "translates": [
+      {
+        "language": "AR",
+        "properties": []
+      },
+      {
+        "language": "FR",
+        "properties": []
+      }
+    ],
+    "sections": {}
+  }
+}
