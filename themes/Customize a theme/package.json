@@ -1,30 +1,57 @@
 {
-  "name": "customize-theme",
-  "version": "1.0.0",
+  "name": "marketmall-theme",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue ."
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "overrides": {
+    "vue": "latest"
   },
   "dependencies": {
+    "@nuxt/icon": "^1.8.2",
+    "@nuxt/image": "^1.8.1",
     "@nuxtjs/axios": "^5.13.6",
-    "@storeino/template-core": "^1.0.5",
-    "config": "^3.3.6",
-    "core-js": "^3.15.1",
-    "express": "^4.17.1",
-    "leaflet": "^1.9.3",
-    "nuxt": "^2.15.7",
-    "vue2-leaflet": "^2.7.1"
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@pinia/nuxt": "^0.7.0",
+    "@sentry/nuxt": "^8.47.0",
+    "@vue/compat": "^3.5.13",
+    "config": "^3.3.12",
+    "estree-walker": "^0.6.1",
+    "express": "^4.21.1",
+    "nuxt": "^3.14.159",
+    "nuxt-swiper": "^2.0.0",
+    "vue": "latest",
+    "vue-router": "latest"
   },
   "devDependencies": {
-    "@nuxt/image": "^0.7.1",
-    "@nuxtjs/tailwindcss": "^4.2.0",
-    "eslint": "^8.42.0",
+    "@iconify-json/solar": "^1.2.2",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@types/config": "^3.3.5",
+    "@types/express": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@vitest/ui": "^2.1.5",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-nuxt": "^4.0.0",
-    "eslint-plugin-vue": "^9.14.1",
-    "postcss": "^8.3.5"
+    "eslint-plugin-prettier": "^5.2.1",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.4.49",
+    "prettier": "^3.3.3",
+    "sass-embedded": "^1.81.0",
+    "tailwindcss": "^3.4.15",
+    "vitest": "^2.1.5"
   }
 }

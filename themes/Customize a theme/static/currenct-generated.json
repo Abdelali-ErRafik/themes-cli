@@ -1,294 +1,1868 @@
 {
-    "style": {
-        "primary_color": "#00825a"
+  "translates": [
+    {
+      "language": "AR",
+      "properties": [
+        {
+          "name": "sections.alerts.cart.added_text",
+          "value": "تمت الإضافة الى السلة"
+        },
+        {
+          "name": "sections.alerts.cart.removed_text",
+          "value": "تم الحذف من السلة"
+        },
+        {
+          "name": "sections.alerts.wishlist.added_text",
+          "value": "تمت الإضافة الى قائمة المفضلة"
+        },
+        {
+          "name": "sections.alerts.wishlist.removed_text",
+          "value": "تم الحذف من قائمة المفضلة"
+        },
+        {
+          "name": "sections.pages.home.name",
+          "value": "الرئيسية"
+        },
+        {
+          "name": "sections.pages.shop.name",
+          "value": "المتجر"
+        },
+        {
+          "name": "sections.pages.blog.name",
+          "value": "المدونة"
+        },
+        {
+          "name": "sections.products.add_to_cart.text",
+          "value": "أضف الى السلة"
+        },
+        {
+          "name": "sections.products.add_to_cart.more_text",
+          "value": "إقرأ أكثر"
+        },
+        {
+          "name": "sections.products.stock.in_stock_ext",
+          "value": "متوفر"
+        },
+        {
+          "name": "sections.products.stock.out_of_stock_text",
+          "value": "غير متوفر"
+        },
+        {
+          "name": "sections.products.reference.text",
+          "value": "مرجع"
+        },
+        {
+          "name": "sections.products.collections.text",
+          "value": "مجموعات"
+        },
+        {
+          "name": "sections.products.tags.text",
+          "value": "علامات"
+        },
+        {
+          "name": "sections.products.brand.text",
+          "value": "علامة تجارية"
+        },
+        {
+          "name": "sections.products.weight.text",
+          "value": "وزن"
+        },
+        {
+          "name": "sections.products.volume.text",
+          "value": "حجم"
+        },
+        {
+          "name": "sections.products.dimensions.text",
+          "value": "الأبعاد"
+        },
+        {
+          "name": "sections.message_bar.message",
+          "value": "<p>تكاليف التوصيل تبدأ من 15 درهم</p>"
+        },
+        {
+          "name": "sections.top_header.location.address",
+          "value": "أكادير، المغرب"
+        },
+        {
+          "name": "sections.header.collections.text",
+          "value": "جميع الفئات"
+        },
+        {
+          "name": "sections.header.search.text",
+          "value": "ابحث عن منتج، علامة تجارية"
+        },
+        {
+          "name": "sections.header.wishlist.text",
+          "value": "مفضلاتي"
+        },
+        {
+          "name": "sections.header.cart.text",
+          "value": "سلتي"
+        },
+        {
+          "name": "sections.header.account.text",
+          "value": "حسابي"
+        },
+        {
+          "name": "sections.footer.social_media.title",
+          "value": "تابعونا:"
+        },
+        {
+          "name": "sections.footer.call_us.work_time",
+          "value": "العمل 8:00 - 22:00"
+        },
+        {
+          "name": "sections.footer.about.store_name",
+          "value": "متجر الكتروني"
+        },
+        {
+          "name": "sections.footer.about.text",
+          "value": "<p>أضف وصفًا قصيرًا عن موقعك الإلكتروني</p>"
+        },
+        {
+          "name": "sections.footer.about.location",
+          "value": "الموقع"
+        },
+        {
+          "name": "sections.footer.about.gmail",
+          "value": "بريد إلكتروني"
+        },
+        {
+          "name": "sections.footer.menus.menu1_title",
+          "value": "القائمة 1"
+        },
+        {
+          "name": "sections.footer.menus.menu2_title",
+          "value": "القائمة 2"
+        },
+        {
+          "name": "sections.footer.menus.menu3_title",
+          "value": "القائمة 3"
+        },
+        {
+          "name": "sections.footer.methods.title",
+          "value": "طرق الدفع"
+        },
+        {
+          "name": "sections.copyright.text",
+          "value": "<p>حقوق الطبع والنشر &copy; __YEAR__. جميع الحقوق محفوظة.</p>"
+        },
+        {
+          "name": "sections.collections.title",
+          "value": "أفضل الفئات"
+        },
+        {
+          "name": "sections.collections.count_text",
+          "value": "عناصر"
+        },
+        {
+          "name": "sections.banners.content.title",
+          "value": "اجتماعات الصفقات السعيدة لدينا"
+        },
+        {
+          "name": "sections.banners.content.description",
+          "value": "نسعى دائما لإرضائكم !"
+        },
+        {
+          "name": "sections.services.content.title",
+          "value": "خدماتنا"
+        },
+        {
+          "name": "sections.services.content.description",
+          "value": "اكتشف الحلول المصممة"
+        },
+        {
+          "name": "sections.brands.content.title",
+          "value": "علاماتنا التجارية"
+        },
+        {
+          "name": "sections.brands.content.description",
+          "value": "اكتشف أفضل العلامات التجارية"
+        },
+        {
+          "name": "sections.posts.content.title",
+          "value": "آخر الاخبار "
+        },
+        {
+          "name": "sections.posts.content.description",
+          "value": "أحدث الأخبار وأكثرها إثارة"
+        },
+        {
+          "name": "sections.posts.publisher.text",
+          "value": "بواسطة"
+        },
+        {
+          "name": "sections.posts.button.text",
+          "value": "عرض الكل"
+        },
+        {
+          "name": "sections.shop.sidebar.filter_text",
+          "value": "ترتيب المنتجات"
+        },
+        {
+          "name": "sections.shop.sidebar.collections.title",
+          "value": "الفئات"
+        },
+        {
+          "name": "sections.shop.sidebar.prices.title",
+          "value": "الأثمنة"
+        },
+        {
+          "name": "sections.shop.sidebar.prices.price_title",
+          "value": "السعر: "
+        },
+        {
+          "name": "sections.shop.sidebar.sizes.title",
+          "value": "المقاسات"
+        },
+        {
+          "name": "sections.shop.sidebar.colors.title",
+          "value": "الألوان"
+        },
+        {
+          "name": "sections.shop.sidebar.tags.title",
+          "value": "العلامات"
+        },
+        {
+          "name": "sections.shop.sidebar.brands.title",
+          "value": "العلامات التجارية"
+        },
+        {
+          "name": "sections.shop.banner.title",
+          "value": "شركة توصيل سريع"
+        },
+        {
+          "name": "sections.shop.content.articles_text",
+          "value": "المقالات التي تم العثور عليها"
+        },
+        {
+          "name": "sections.shop.title",
+          "value": "المتجر"
+        },
+        {
+          "name": "sections.shop.description",
+          "value": "اكتشف آخر منتجاتنا"
+        },
+        {
+          "name": "sections.shop.sorts.sort_by_text",
+          "value": "ترتيب حسب"
+        },
+        {
+          "name": "sections.shop.sorts.newest",
+          "value": "الحديثة"
+        },
+        {
+          "name": "sections.shop.sorts.oldest",
+          "value": "الاقدم"
+        },
+        {
+          "name": "sections.shop.sorts.name_asc",
+          "value": "ترتيب الاسماء أ-ي"
+        },
+        {
+          "name": "sections.shop.sorts.name_desc",
+          "value": "ترتيب الاسماء ي-أ"
+        },
+        {
+          "name": "sections.shop.sorts.price_asc",
+          "value": "الأقل ثمنا"
+        },
+        {
+          "name": "sections.shop.sorts.price_desc",
+          "value": "الأعلى ثمنا"
+        },
+        {
+          "name": "sections.shop.sorts.rating_asc",
+          "value": "آراء اقل"
+        },
+        {
+          "name": "sections.shop.sorts.rating_desc",
+          "value": "آراء أكثر"
+        },
+        {
+          "name": "sections.shop.pagination.previous_text",
+          "value": "السابق"
+        },
+        {
+          "name": "sections.shop.pagination.next_text",
+          "value": "التالي"
+        },
+        {
+          "name": "sections.product.content.title",
+          "value": "حول هذا البند:"
+        },
+        {
+          "name": "sections.product.add_to_cart.text",
+          "value": "اضف الى السلة"
+        },
+        {
+          "name": "sections.product.buy_now.text",
+          "value": "اشتري الآن"
+        },
+        {
+          "name": "sections.product.wishlist.add_to_wishlist",
+          "value": "أضف إلى قائمة الرغبات"
+        },
+        {
+          "name": "sections.product.wishlist.remove_from_wishlist",
+          "value": "إزالة من قائمة الرغبات"
+        },
+        {
+          "name": "sections.product.reference.title",
+          "value": "مرجع :"
+        },
+        {
+          "name": "sections.product.collections.title",
+          "value": "الفئات :"
+        },
+        {
+          "name": "sections.product.tags.title",
+          "value": "العلامات :"
+        },
+        {
+          "name": "sections.product.brands.title",
+          "value": "علامة تجارية :"
+        },
+        {
+          "name": "sections.product.weight.title",
+          "value": "الوزن :"
+        },
+        {
+          "name": "sections.product.volume.title",
+          "value": "حجم :"
+        },
+        {
+          "name": "sections.product.dimensions.title",
+          "value": "الأبعاد"
+        },
+        {
+          "name": "sections.product.dimensions.width_text",
+          "value": "العرض"
+        },
+        {
+          "name": "sections.product.dimensions.height_text",
+          "value": "الارتفاع"
+        },
+        {
+          "name": "sections.product.dimensions.depth_text",
+          "value": "عمق"
+        },
+        {
+          "name": "sections.product.share_buttons.title",
+          "value": "شارك"
+        },
+        {
+          "name": "sections.product.description.description_name",
+          "value": "الوصف"
+        },
+        {
+          "name": "sections.product.description.description_empty_text",
+          "value": "لا يوجد وصف"
+        },
+        {
+          "name": "sections.product.reviews.title",
+          "value": "التعليقات"
+        },
+        {
+          "name": "sections.product.reviews.reviews_name",
+          "value": "تعليقات"
+        },
+        {
+          "name": "sections.product.reviews.reviews_empty_text",
+          "value": "لا توجد تعليقات"
+        },
+        {
+          "name": "sections.product.upsell.title",
+          "value": "عروض خاصة"
+        },
+        {
+          "name": "sections.product.related.title",
+          "value": "منتجات ذات صلة"
+        },
+        {
+          "name": "sections.product.related.more",
+          "value": "عرض المزيد"
+        },
+        {
+          "name": "sections.cart.texts.navbar_text",
+          "value": "السلة"
+        },
+        {
+          "name": "sections.cart.texts.product_text",
+          "value": "المنتجات"
+        },
+        {
+          "name": "sections.cart.texts.total_product_text",
+          "value": "إجمالي المنتجات"
+        },
+        {
+          "name": "sections.cart.quantity_text",
+          "value": "الكمية"
+        },
+        {
+          "name": "sections.cart.texts.subtotal_text",
+          "value": "المجموع الفرعي"
+        },
+        {
+          "name": "sections.cart.texts.cart_text",
+          "value": "إجمالي البطاقة"
+        },
+        {
+          "name": "sections.cart.texts.total_text",
+          "value": "المجموع"
+        },
+        {
+          "name": "sections.cart.texts.remove_all_text",
+          "value": "حذف الكل"
+        },
+        {
+          "name": "sections.cart.texts.empty_text",
+          "value": "سلتكم فارغة"
+        },
+        {
+          "name": "sections.cart.texts.cart_title",
+          "value": "يتم شحنها من المغرب"
+        },
+        {
+          "name": "sections.cart.features.item_0.title",
+          "value": "التسليم في كل مكان في المغرب"
+        },
+        {
+          "name": "sections.cart.buttons.order_text",
+          "value": "اكمل الطلبية"
+        },
+        {
+          "name": "sections.cart.buttons.shop_text",
+          "value": "الرجوع الى المتجر"
+        },
+        {
+          "name": "sections.cart.upsell.title",
+          "value": "عروض خاصة"
+        },
+        {
+          "name": "sections.wishlist.texts.navbar_text",
+          "value": "قائمة المفصلة"
+        },
+        {
+          "name": "sections.wishlist.texts.title_text",
+          "value": "قائمة أمنياتي"
+        },
+        {
+          "name": "sections.wishlist.texts.unit_price_text",
+          "value": "سعر الوحدة"
+        },
+        {
+          "name": "sections.wishlist.texts.stock_status_text",
+          "value": "حالة المستودع"
+        },
+        {
+          "name": "sections.wishlist.texts.empty_text",
+          "value": "قائمة المفصلة فارغة"
+        },
+        {
+          "name": "sections.wishlist.buttons.shop_text",
+          "value": "الرجوع الى المتجر"
+        },
+        {
+          "name": "sections.wishlist.buttons.cart_text",
+          "value": "أضف جميع المنتجات إلى سلة التسوق"
+        },
+        {
+          "name": "sections.wishlist.buttons.remove_text",
+          "value": "إزالة الكل"
+        },
+        {
+          "name": "sections.blog.sidebar.filter_text",
+          "value": "ترتيب المقالات"
+        },
+        {
+          "name": "sections.blog.sidebar.categories.title",
+          "value": "الفئات"
+        },
+        {
+          "name": "sections.blog.sidebar.products.title",
+          "value": "المتجر"
+        },
+        {
+          "name": "sections.blog.title",
+          "value": "مدونة"
+        },
+        {
+          "name": "sections.blog.banner.title",
+          "value": "استكشف مدوناتنا"
+        },
+        {
+          "name": "sections.blog.content.blogs_text",
+          "value": "المدونات"
+        },
+        {
+          "name": "sections.blog.sorts.sort_by",
+          "value": "الترتيب حسب :"
+        },
+        {
+          "name": "sections.blog.sorts.newest",
+          "value": "الاحدث"
+        },
+        {
+          "name": "sections.blog.sorts.oldest",
+          "value": "الأقدم"
+        },
+        {
+          "name": "sections.blog.sorts.name_asc",
+          "value": "ترتيب الاسماء أ-ي"
+        },
+        {
+          "name": "sections.blog.sorts.name_desc",
+          "value": "ترتيب الاسماء ي-أ"
+        },
+        {
+          "name": "sections.blog.empty_text",
+          "value": "لا توجد مدونات"
+        },
+        {
+          "name": "sections.blog.button.text",
+          "value": "مزيد من التفاصيل"
+        },
+        {
+          "name": "sections.post.related.title",
+          "value": "مقالات ذات صلة"
+        },
+        {
+          "name": "sections.post.related.show_more_text",
+          "value": "المزيد من المقالات"
+        },
+        {
+          "name": "sections.post.share_buttons.title",
+          "value": "شارك مع اصدقائك"
+        },
+        {
+          "name": "sections.thanks.buttons.order_text",
+          "value": "طلب #"
+        },
+        {
+          "name": "sections.thanks.buttons.shop_text",
+          "value": "الرجوع الى المتجر"
+        },
+        {
+          "name": "sections.thanks.buttons.track_text",
+          "value": "تتبع الطلب"
+        },
+        {
+          "name": "sections.thanks.texts.title",
+          "value": "شكرا"
+        },
+        {
+          "name": "sections.thanks.texts.description",
+          "value": "شكرا على طلبيتكم"
+        },
+        {
+          "name": "sections._404.title",
+          "value": "الصفحة غير موجودة"
+        },
+        {
+          "name": "sections._404.description",
+          "value": "نحن آسفون ، لكن الصفحة التي طلبتها لم يتم العثور عليها"
+        },
+        {
+          "name": "sections._404.buttons.back_to_shop_text",
+          "value": "الرجوع الى المتجر"
+        },
+        {
+          "name": "temp.newField",
+          "value": "حاول ثانية"
+        }
+      ]
     },
-    "sections": {
-        "products": {
-            "add_to_cart": {
-                "active": true,
-                "text": "Add to cart"
-            },
-            "add_to_cart_to_checkout": false,
-            "added_text": "Added",
-            "confirm_text": "Confirm"
+    {
+      "language": "FR",
+      "properties": [
+        {
+          "name": "sections.alerts.cart.added_text",
+          "value": "Ajouté au panier"
         },
-        "alerts": {
-            "added_to_cart": "Added to cart",
-            "added_to_wishlist": "Added to wishlist",
-            "removed_from_cart": "Removed from cart",
-            "removed_from_wishlist": "Removed from wishlist"
+        {
+          "name": "sections.alerts.cart.removed_text",
+          "value": "Supprimé du panier"
         },
-        "header": {
-            "logo": null,
-            "icons": {
-                "cart": true,
-                "wishlist": true,
-                "account": false,
-                "search": true,
-                "language": true,
-                "currency": true
-            },
-            "menu": null
+        {
+          "name": "sections.alerts.wishlist.added_text",
+          "value": "Ajouté au favoris"
         },
-        "footer": {
-            "about": "<h3>Experience Palest </h3> <p> Whether you are a livestock farmer or a farmer, a contractor or a forester: In the BayWa portal you will find a wide range of animal feed, seeds and crop protection - conventional or ecological  In addition, you will receive detailed information about our diverse advisory services, services, events and topics as well as about us, your BayWa. <br>Discover our diversity - digitally and on site </p>",
-            "methods": {
-                "title": "Our payment methods",
-                "visa": true,
-                "mastercard": true,
-                "transfer": true,
-                "cash": true
-            },
-            "social_media": {
-                "title": "Follow us",
-                "facebook": "https://www.facebook.com/",
-                "twitter": "https://twitter.com/",
-                "instagram": "https://www.instagram.com/",
-                "youtube": "https://www.youtube.com/",
-                "linkedin": "https://www.linkedin.com/",
-                "whatsapp": "https://web.whatsapp.com/",
-                "snapchat": "https://www.snapchat.com/",
-                "tiktok": "https://www.tiktok.com/"
-            },
-            "menu": null,
-            "copyright": {
-                "store_name": "Online store",
-                "text": "Copyright © __YEAR__. All rights reserved. <a href='//storeino.com'>storeino.com</a>"
-            }
+        {
+          "name": "sections.alerts.wishlist.removed_text",
+          "value": "Supprimé du panier"
         },
-        "banner": {
-            "active": false,
-            "right": {
-                "active": true,
-                "image": null,
-                "url": "/shop"
-            }
+        {
+          "name": "sections.pages.home.name",
+          "value": "Accueil"
+        },
+        {
+          "name": "sections.pages.shop.name",
+          "value": "Boutique"
+        },
+        {
+          "name": "sections.pages.blog.name",
+          "value": "Blog"
+        },
+        {
+          "name": "sections.products.add_to_cart.text",
+          "value": "Ajouter au panier"
+        },
+        {
+          "name": "sections.products.add_to_cart.more_text",
+          "value": "En savoir plus"
+        },
+        {
+          "name": "sections.products.stock.in_stock_ext",
+          "value": "en stock"
+        },
+        {
+          "name": "sections.products.stock.out_of_stock_text",
+          "value": "Rupture de stock"
+        },
+        {
+          "name": "sections.products.reference.text",
+          "value": "Référence"
+        },
+        {
+          "name": "sections.products.collections.text",
+          "value": "Collections"
+        },
+        {
+          "name": "sections.products.tags.text",
+          "value": "Étiquettes"
+        },
+        {
+          "name": "sections.products.brand.text",
+          "value": "Marque"
+        },
+        {
+          "name": "sections.products.weight.text",
+          "value": "Poids"
+        },
+        {
+          "name": "sections.products.volume.text",
+          "value": "Volume"
+        },
+        {
+          "name": "sections.products.dimensions.text",
+          "value": "Dimensions"
+        },
+        {
+          "name": "sections.message_bar.message",
+          "value": "<p>Les frais de livraison &agrave; partir de 15 Dhs</p>"
+        },
+        {
+          "name": "sections.top_header.location.address",
+          "value": "Agadir, Morocco"
+        },
+        {
+          "name": "sections.header.collections.text",
+          "value": "Toutes les catégories"
+        },
+        {
+          "name": "sections.header.search.text",
+          "value": "Cherchez un produit, une marque"
+        },
+        {
+          "name": "sections.header.wishlist.text",
+          "value": "Mes favoris"
+        },
+        {
+          "name": "sections.header.cart.text",
+          "value": "Mon panier"
+        },
+        {
+          "name": "sections.header.account.text",
+          "value": "Mon compte"
+        },
+        {
+          "name": "sections.footer.social_media.title",
+          "value": "Abonnez-vous:"
+        },
+        {
+          "name": "sections.footer.call_us.work_time",
+          "value": "Travail 8:00 - 22:00"
+        },
+        {
+          "name": "sections.footer.about.store_name",
+          "value": "Boutique en ligne"
+        },
+        {
+          "name": "sections.footer.about.text",
+          "value": "<p>Ajoutez une petite description de votre site web</p>"
+        },
+        {
+          "name": "sections.footer.about.location",
+          "value": "Localisation"
+        },
+        {
+          "name": "sections.footer.about.gmail",
+          "value": "Email"
+        },
+        {
+          "name": "sections.footer.menus.menu1_title",
+          "value": "Menu 1"
+        },
+        {
+          "name": "sections.footer.menus.menu2_title",
+          "value": "Menu 2"
+        },
+        {
+          "name": "sections.footer.menus.menu3_title",
+          "value": "Menu 3"
+        },
+        {
+          "name": "sections.footer.methods.title",
+          "value": "Modes de paiement"
+        },
+        {
+          "name": "sections.copyright.text",
+          "value": "<p>Copyright &copy; __YEAR__. Tous droits r&eacute;serv&eacute;s.</p>"
+        },
+        {
+          "name": "sections.collections.title",
+          "value": "MEILLEURES COLLECTIONS"
+        },
+        {
+          "name": "sections.collections.count_text",
+          "value": "Articles"
+        },
+        {
+          "name": "sections.banners.content.title",
+          "value": "Nos rendez-vous Happy Deals"
+        },
+        {
+          "name": "sections.banners.content.description",
+          "value": "Nous nous efforçons toujours de vous satisfaire !"
+        },
+        {
+          "name": "sections.services.content.title",
+          "value": "Nos services"
+        },
+        {
+          "name": "sections.services.content.description",
+          "value": "Découvrez des solutions conçues"
+        },
+        {
+          "name": "sections.brands.content.title",
+          "value": "Nos marques"
+        },
+        {
+          "name": "sections.brands.content.description",
+          "value": "Découvrez les meilleures marques"
+        },
+        {
+          "name": "sections.posts.content.title",
+          "value": "Derniers articles"
+        },
+        {
+          "name": "sections.posts.content.description",
+          "value": "Les nouvelles les plus fraîches et les plus excitantes"
+        },
+        {
+          "name": "sections.posts.publisher.text",
+          "value": "Par"
+        },
+        {
+          "name": "sections.posts.button.text",
+          "value": "Voir Tout"
+        },
+        {
+          "name": "sections.shop.sidebar.filter_text",
+          "value": "Produits filtrants"
+        },
+        {
+          "name": "sections.shop.sidebar.collections.title",
+          "value": "Collections"
+        },
+        {
+          "name": "sections.shop.sidebar.prices.title",
+          "value": "Prix"
+        },
+        {
+          "name": "sections.shop.sidebar.prices.price_title",
+          "value": "Prix : "
+        },
+        {
+          "name": "sections.shop.sidebar.sizes.title",
+          "value": "Tailles"
+        },
+        {
+          "name": "sections.shop.sidebar.colors.title",
+          "value": "Couleurs"
+        },
+        {
+          "name": "sections.shop.sidebar.tags.title",
+          "value": "Tags"
+        },
+        {
+          "name": "sections.shop.sidebar.brands.title",
+          "value": "Marques"
+        },
+        {
+          "name": "sections.shop.banner.title",
+          "value": "Entreprise de livraison rapide"
+        },
+        {
+          "name": "sections.shop.content.articles_text",
+          "value": "Articles trouvés"
+        },
+        {
+          "name": "sections.shop.sorts.sort_by_text",
+          "value": "Trier par"
+        },
+        {
+          "name": "sections.shop.sorts.newest",
+          "value": "Le plus récents"
+        },
+        {
+          "name": "sections.shop.sorts.oldest",
+          "value": "Le plus anciens"
+        },
+        {
+          "name": "sections.shop.sorts.name_asc",
+          "value": "Nom (A-Z)"
+        },
+        {
+          "name": "sections.shop.sorts.name_desc",
+          "value": "Nom (Z-A)"
+        },
+        {
+          "name": "sections.shop.sorts.price_asc",
+          "value": "Prix (Moins cher)"
+        },
+        {
+          "name": "sections.shop.sorts.price_desc",
+          "value": "Prix (Plus cher)"
+        },
+        {
+          "name": "sections.shop.sorts.rating_asc",
+          "value": "Moins d'avis"
+        },
+        {
+          "name": "sections.shop.sorts.rating_desc",
+          "value": "Plus d'avis"
+        },
+        {
+          "name": "sections.shop.pagination.previous_text",
+          "value": "Précédente"
+        },
+        {
+          "name": "sections.shop.pagination.next_text",
+          "value": "Suivant"
+        },
+        {
+          "name": "sections.product.content.title",
+          "value": "À propos de cet article :"
+        },
+        {
+          "name": "sections.product.add_to_cart.text",
+          "value": "Ajouter au panier"
+        },
+        {
+          "name": "sections.product.buy_now.text",
+          "value": "Acheter maintenant"
+        },
+        {
+          "name": "sections.product.wishlist.add_to_wishlist",
+          "value": "Ajouter à la liste de souhaits"
+        },
+        {
+          "name": "sections.product.wishlist.remove_from_wishlist",
+          "value": "Retirer de la liste de souhaits"
+        },
+        {
+          "name": "sections.product.reference.title",
+          "value": "Référence :"
+        },
+        {
+          "name": "sections.product.collections.title",
+          "value": "Catégories :"
+        },
+        {
+          "name": "sections.product.tags.title",
+          "value": "Étiquettes :"
+        },
+        {
+          "name": "sections.product.brands.title",
+          "value": "Marque :"
+        },
+        {
+          "name": "sections.product.weight.title",
+          "value": "Poids :"
+        },
+        {
+          "name": "sections.product.volume.title",
+          "value": "Volume :"
+        },
+        {
+          "name": "sections.product.dimensions.title",
+          "value": "Dimensions "
+        },
+        {
+          "name": "sections.product.dimensions.width_text",
+          "value": "Largeur"
+        },
+        {
+          "name": "sections.product.dimensions.height_text",
+          "value": "Hauteur"
+        },
+        {
+          "name": "sections.product.dimensions.depth_text",
+          "value": "Profondeur"
+        },
+        {
+          "name": "sections.product.share_buttons.title",
+          "value": "Partager"
+        },
+        {
+          "name": "sections.product.description.description_name",
+          "value": "Description"
+        },
+        {
+          "name": "sections.product.description.description_empty_text",
+          "value": "Aucune description"
+        },
+        {
+          "name": "sections.product.reviews.title",
+          "value": "Commentaires"
+        },
+        {
+          "name": "sections.product.reviews.reviews_name",
+          "value": "Commentaires"
+        },
+        {
+          "name": "sections.product.reviews.reviews_empty_text",
+          "value": "Pas d'avis"
+        },
+        {
+          "name": "sections.product.upsell.title",
+          "value": "Offre spéciale"
+        },
+        {
+          "name": "sections.product.related.title",
+          "value": "Produits relatifs"
+        },
+        {
+          "name": "sections.product.related.more",
+          "value": "Afficher plus"
+        },
+        {
+          "name": "sections.cart.texts.navbar_text",
+          "value": "Panier"
+        },
+        {
+          "name": "sections.cart.texts.product_text",
+          "value": "Produits"
+        },
+        {
+          "name": "sections.cart.texts.total_product_text",
+          "value": "Total Produits"
+        },
+        {
+          "name": "sections.cart.quantity_text",
+          "value": "Quantité"
+        },
+        {
+          "name": "sections.cart.texts.subtotal_text",
+          "value": "Sous-total"
+        },
+        {
+          "name": "sections.cart.texts.cart_text",
+          "value": "CART TOTAL"
+        },
+        {
+          "name": "sections.cart.texts.total_text",
+          "value": "Total"
+        },
+        {
+          "name": "sections.cart.texts.remove_all_text",
+          "value": "Supprimer tout"
+        },
+        {
+          "name": "sections.cart.texts.empty_text",
+          "value": "Votre panier est vide"
+        },
+        {
+          "name": "sections.cart.texts.cart_title",
+          "value": "Expedié depuis le Maroc"
+        },
+        {
+          "name": "sections.cart.features.item_0.title",
+          "value": "Livraison partout au Maroc"
+        },
+        {
+          "name": "sections.cart.buttons.order_text",
+          "value": "Passer une commande"
+        },
+        {
+          "name": "sections.cart.buttons.shop_text",
+          "value": "Retour à la boutique"
+        },
+        {
+          "name": "sections.cart.upsell.title",
+          "value": "Offre spéciale"
+        },
+        {
+          "name": "sections.wishlist.texts.navbar_text",
+          "value": "Listes des favoris"
+        },
+        {
+          "name": "sections.wishlist.texts.title_text",
+          "value": "Ma Liste D’envie"
+        },
+        {
+          "name": "sections.wishlist.texts.unit_price_text",
+          "value": "Prix unitaire"
+        },
+        {
+          "name": "sections.wishlist.texts.stock_status_text",
+          "value": "État des stocks"
+        },
+        {
+          "name": "sections.wishlist.texts.empty_text",
+          "value": "Votre liste de favoris"
+        },
+        {
+          "name": "sections.wishlist.buttons.shop_text",
+          "value": "Retour à la boutique"
+        },
+        {
+          "name": "sections.wishlist.buttons.cart_text",
+          "value": "Ajouter tous les produits au panier"
+        },
+        {
+          "name": "sections.wishlist.buttons.remove_text",
+          "value": "Supprimer tout"
+        },
+        {
+          "name": "sections.blog.sidebar.filter_text",
+          "value": "Postes filtrants"
+        },
+        {
+          "name": "sections.blog.sidebar.categories.title",
+          "value": "Catégories"
+        },
+        {
+          "name": "sections.blog.sidebar.products.title",
+          "value": "De la boutique"
+        },
+        {
+          "name": "sections.blog.banner.title",
+          "value": "Découvrez nos blogs"
+        },
+        {
+          "name": "sections.blog.content.blogs_text",
+          "value": "Blogs"
+        },
+        {
+          "name": "sections.blog.sorts.sort_by",
+          "value": "Trier par :"
+        },
+        {
+          "name": "sections.blog.sorts.newest",
+          "value": "Le plus récent"
+        },
+        {
+          "name": "sections.blog.sorts.oldest",
+          "value": "Le plus ancien"
+        },
+        {
+          "name": "sections.blog.sorts.name_asc",
+          "value": "Nom (A-Z)"
+        },
+        {
+          "name": "sections.blog.sorts.name_desc",
+          "value": "Nom (Z-A)"
+        },
+        {
+          "name": "sections.blog.empty_text",
+          "value": "Aucun blog trouvé"
+        },
+        {
+          "name": "sections.blog.button.text",
+          "value": "Plus de détails"
+        },
+        {
+          "name": "sections.post.related.title",
+          "value": "Articles relatifs"
+        },
+        {
+          "name": "sections.post.related.show_more_text",
+          "value": "Plus D'articles"
+        },
+        {
+          "name": "sections.post.share_buttons.title",
+          "value": "Partager"
+        },
+        {
+          "name": "sections.thanks.buttons.order_text",
+          "value": "Commande #"
+        },
+        {
+          "name": "sections.thanks.buttons.shop_text",
+          "value": "Retour à la boutique"
+        },
+        {
+          "name": "sections.thanks.buttons.track_text",
+          "value": "Suivi de commande"
+        },
+        {
+          "name": "sections.thanks.texts.title",
+          "value": "Merci"
+        },
+        {
+          "name": "sections.thanks.texts.description",
+          "value": "Merci pour votre commande"
+        },
+        {
+          "name": "sections._404.title",
+          "value": "Page non trouvée"
+        },
+        {
+          "name": "sections._404.description",
+          "value": "Nous sommes désolés, mais la page que vous avez demandée n'a pas été trouvée"
+        },
+        {
+          "name": "sections._404.buttons.back_to_shop_text",
+          "value": "retour à la boutique"
+        },
+        {
+          "name": "temp.newField",
+          "value": "Essayer à nouveau"
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "colors": {
+      "primary": {
+        "color": "#045a62",
+        "text": "#045a62"
+      },
+      "secondary": {
+        "color": "#00afaa",
+        "text": "#00afaa"
+      },
+      "third": {
+        "border": "#e5e7eb",
+        "color": "#f0f0f0",
+        "text": "#7f7f7f"
+      }
+    },
+    "direction": {
+      "value": "ltr"
+    },
+    "sizes": {
+      "titles": "24",
+      "content": "14"
+    },
+    "fonts": {
+      "primary": "roboto"
+    },
+    "alerts": {
+      "cart": {
+        "added_text": "Added to cart",
+        "removed_text": "Removed from cart"
+      },
+      "wishlist": {
+        "added_text": "Added to wishlist",
+        "removed_text": "Removed from wishlist"
+      }
+    },
+    "pages": {
+      "home": {
+        "name": "Home"
+      },
+      "shop": {
+        "name": "Shop"
+      },
+      "blog": {
+        "name": "Blog"
+      }
+    },
+    "products": {
+      "add_to_cart": {
+        "active": true,
+        "to_checkout": false,
+        "text": "Add to cart",
+        "more_text": "Read More"
+      },
+      "add_to_wishlist": {
+        "active": true
+      },
+      "stock": {
+        "active": true,
+        "in_stock_ext": "In Stock",
+        "out_of_stock_text": "Out Of Stock",
+        "in_stock_color": "#0f9939",
+        "out_of_stock_color": "#ad0000"
+      },
+      "reference": {
+        "active": true,
+        "text": "Reference"
+      },
+      "collections": {
+        "active": true,
+        "text": "Collections"
+      },
+      "tags": {
+        "active": true,
+        "text": "Tags"
+      },
+      "brand": {
+        "active": true,
+        "text": "Brand"
+      },
+      "weight": {
+        "active": true,
+        "text": "Weight"
+      },
+      "volume": {
+        "active": true,
+        "text": "Volume"
+      },
+      "dimensions": {
+        "active": true,
+        "text": "Dimensions"
+      },
+      "reviews": {
+        "active": true,
+        "inactive_color": "#7f7f7f",
+        "active_color": "#ffcc00"
+      },
+      "active": true,
+      "colors": {
+        "background": "#ffffff",
+        "text": "#333333"
+      },
+      "items": {
+        "item_0": {
+          "active": true,
+          "title": "Happy Deals",
+          "description": "Do not miss the current offers.",
+          "show_more_text": "See all offers",
+          "show_more_url": "/shop",
+          "collections": [],
+          "items": [],
+          "tags": ""
+        }
+      }
+    },
+    "message_bar": {
+      "active": true,
+      "colors": {
+        "background_color": "#04393e",
+        "text_color": "#d5c483"
+      },
+      "message": "<header class=\"page-header\">\n<div class=\"header content\">\n<div class=\"widget block block-static-block\">\n<div id=\"\" data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\" data-decoded=\"true\">\n<div class=\"annonce-wrappper\"><span class=\"main-txt\">Frais de livraison &agrave; partir de 15 Dhs</span></div>\n</div>\n</div>\n</div>\n</header>"
+    },
+    "top_header": {
+      "active": true,
+      "colors": {
+        "background_color": "#08474e",
+        "text_color": "#ffffff"
+      },
+      "phone": {
+        "number": "+212 (6) 61 60 40 50"
+      },
+      "location": {
+        "address": "MOROCCO, CASABLANCA"
+      },
+      "work": {
+        "time": "24/7"
+      },
+      "language": {
+        "active": true
+      },
+      "currency": {
+        "active": true
+      }
+    },
+    "header": {
+      "colors": {
+        "background_color": "#0c5c64",
+        "text_color": "#ffffff"
+      },
+      "logo": {
+        "desktop": {
+          "img": null
+        },
+        "mobile": {
+          "img": null
+        }
+      },
+      "collections": {
+        "text": "All categories",
+        "menu": []
+      },
+      "menu": null,
+      "search": {
+        "active": true,
+        "text": "Search for products",
+        "background_color": "#ffffff",
+        "text_color": "#0b4d54"
+      },
+      "wishlist": {
+        "active": true,
+        "text": "My favorites"
+      },
+      "cart": {
+        "active": true,
+        "text": "My Cart"
+      },
+      "account": {
+        "active": true,
+        "text": "Connect"
+      },
+      "language": {
+        "active": true
+      },
+      "currency": {
+        "active": true
+      }
+    },
+    "footer": {
+      "colors": {
+        "background_color": "#025c67",
+        "text_color": "#ffffff"
+      },
+      "social_media": {
+        "title": "Follow us",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "linkedin": "https://www.linkedin.com/",
+        "whatsapp": "https://web.whatsapp.com/",
+        "snapchat": "https://www.snapchat.com/",
+        "tiktok": "https://www.tiktok.com/"
+      },
+      "call_us": {
+        "number": "+212 000000000",
+        "work_time": "Working 8:00 - 22:00"
+      },
+      "about": {
+        "store_name": "Online Store",
+        "text": "<p>Add Small Desciption About Your Website</p>",
+        "location": "Location",
+        "location_url": "#",
+        "gmail": "E-mail"
+      },
+      "menus": {
+        "menu1_active": true,
+        "menu1_title": "Menu 1",
+        "menu1": null,
+        "menu2_active": true,
+        "menu2_title": "Menu 2",
+        "menu2": null,
+        "menu3_active": true,
+        "menu3_title": "Menu 3",
+        "menu3": null
+      },
+      "methods": {
+        "active": true,
+        "title": "Payment methods",
+        "visa": true,
+        "mastercard": true,
+        "transfer": true,
+        "paypal": true,
+        "cash": true
+      }
+    },
+    "copyright": {
+      "colors": {
+        "background_color": "#005058",
+        "text_color": "#ffffff"
+      },
+      "text": "<p>Copyright &copy; __YEAR__. All rights reserved.</p>"
+    },
+    "top_scroll": {
+      "active": true,
+      "colors": {
+        "background_color": "#00afaa",
+        "text_color": "#ffffff"
+      }
+    },
+    "carousel": {
+      "active": true,
+      "colors": {
+        "bg_color": "#ffffff",
+        "text_color": "#4c4c4c"
+      },
+      "options": {
+        "full_screen": true,
+        "auto_play": true,
+        "pagination": true,
+        "navigation": true
+      },
+      "responsive": {
+        "desktop_height": "580",
+        "tablet_height": "580",
+        "mobile_height": "380"
+      },
+      "slides": {
+        "item_1": {
+          "image": null,
+          "text_color": "#333333",
+          "position": "left",
+          "title": "Happy deals from 50$",
+          "description": "Only this week. Don’t miss...",
+          "button": {
+            "active": true,
+            "text": "Shop now",
+            "url": "/shop"
+          }
+        }
+      }
+    },
+    "offers": {
+      "active": true,
+      "colors": {
+        "background_color": "#ffffff",
+        "text_color": "#333333"
+      },
+      "items": {
+        "item_0": {
+          "image": null,
+          "title": "Free Shipping",
+          "link": "/"
+        },
+        "item_1": {
+          "image": null,
+          "title": "Free Shipping",
+          "link": "/"
+        },
+        "item_2": {
+          "image": null,
+          "title": "Free Shipping",
+          "link": "/"
+        },
+        "item_3": {
+          "image": null,
+          "title": "Free Shipping",
+          "link": "/"
+        },
+        "item_4": {
+          "image": null,
+          "title": "Free Shipping",
+          "link": "/"
+        }
+      }
+    },
+    "collections": {
+      "active": true,
+      "colors": {
+        "background": "#ffffff",
+        "text": "#4c4c4c"
+      },
+      "title": "Top collections",
+      "count_text": "Items",
+      "items": []
+    },
+    "banners": {
+      "active": true,
+      "colors": {
+        "background_color": "#d00606",
+        "text_color": "#333333"
+      },
+      "content": {
+        "title": "Our Happy Deals meetings",
+        "description": "We always strive to satisfy you !"
+      },
+      "items": {
+        "item_0": {
+          "image": null,
+          "text_color": "#333333",
+          "title": "End of year decoration",
+          "description": "Make your home perfect",
+          "button": {
+            "active": true,
+            "text": "Shop now",
+            "url": "/shop"
+          }
+        },
+        "item_1": {
+          "image": null,
+          "text_color": "#333333",
+          "title": "End of year decoration",
+          "description": "Make your home perfect",
+          "button": {
+            "active": true,
+            "text": "Shop now",
+            "url": "/shop"
+          }
+        },
+        "item_2": {
+          "image": null,
+          "text_color": "#333333",
+          "title": "End of year decoration",
+          "description": "Make your home perfect",
+          "button": {
+            "active": true,
+            "text": "Shop now",
+            "url": "/shop"
+          }
+        }
+      }
+    },
+    "services": {
+      "active": true,
+      "colors": {
+        "background_color": "#ffffff",
+        "text_color": "#333333"
+      },
+      "content": {
+        "title": "Our services",
+        "description": "Discover solutions crafted"
+      },
+      "items": {
+        "item_0": {
+          "image": null,
+          "title": "Fast Delivery",
+          "description": "Fast Delivery",
+          "url": "#"
+        },
+        "item_1": {
+          "image": null,
+          "title": "Fast Delivery",
+          "description": "Fast Delivery",
+          "url": "#"
+        },
+        "item_2": {
+          "image": null,
+          "title": "Fast Delivery",
+          "description": "Fast Delivery",
+          "url": "#"
+        },
+        "item_3": {
+          "image": null,
+          "title": "Fast Delivery",
+          "description": "Fast Delivery",
+          "url": "#"
+        }
+      }
+    },
+    "brands": {
+      "active": true,
+      "colors": {
+        "background_color": "#ffffff",
+        "text_color": "#333333"
+      },
+      "content": {
+        "title": "Our Brands",
+        "description": "Discover solutions crafted"
+      },
+      "items": []
+    },
+    "posts": {
+      "active": true,
+      "colors": {
+        "background_color": "#ffffff",
+        "text_color": "#333333"
+      },
+      "content": {
+        "title": "Latest News",
+        "description": "The freshest and most exciting news"
+      },
+      "publisher": {
+        "active": true,
+        "text": "By"
+      },
+      "date": {
+        "active": true
+      },
+      "cartegories": {
+        "active": true
+      },
+      "items": [],
+      "button": {
+        "text": "View All"
+      }
+    },
+    "shop": {
+      "sidebar": {
+        "active": true,
+        "filter_text": "Filter Products",
+        "form": {
+          "active": true
         },
         "collections": {
-            "active": true,
-            "title": "Top Collections",
-            "items": []
+          "active": true,
+          "title": "Collections"
         },
-        "products_1": {
-            "active": true,
-            "title": "Featured Products",
-            "collections": [],
-            "tags": "",
-            "show_more_text": "Discover more",
-            "show_more_url": "/shop"
+        "prices": {
+          "active": true,
+          "title": "Prices",
+          "price_title": "Price : "
         },
-        "products_2": {
-            "active": true,
-            "title": "Featured Products",
-            "collections": [],
-            "tags": "",
-            "show_more_text": "Clothes only",
-            "show_more_url": "/shop"
+        "sizes": {
+          "active": true,
+          "title": "Sizes"
         },
-        "products_3": {
-            "active": false,
-            "title": "Toys",
-            "collections": [],
-            "tags": "",
-            "show_more_text": "More tech products",
-            "show_more_url": "/shop"
+        "colors": {
+          "active": true,
+          "title": "Colors"
         },
-        "products_4": {
-            "active": false,
-            "title": "Phone & Computers",
-            "collections": [],
-            "tags": "",
-            "show_more_text": "Last Products",
-            "show_more_url": "/shop"
+        "tags": {
+          "active": true,
+          "title": "Tags"
         },
-        "products_5": {
-            "active": false,
-            "title": "Featured Products",
-            "collections": [],
-            "tags": "",
-            "show_more_text": "Last products",
-            "show_more_url": "/shop"
-        },
-        "posts": {
-            "active": true,
-            "title": "Latest News",
-            "posts": [],
-            "buttons": {
-                "show_more_text": "Show more blog posts"
-            }
-        },
-        "services": {
-            "active": true,
-            "title": "Our services",
-            "items": {
-                "delivery": {
-                    "text": "Fast delivery",
-                    "url": "#"
-                },
-                "satisfaction": {
-                    "text": "Satisfaction",
-                    "url": "#"
-                },
-                "quality": {
-                    "text": "Quality",
-                    "url": "#"
-                }
-            }
-        },
-        "product": {
-            "add_to_cart": {
-                "active": true,
-                "text": "Add to cart"
-            },
-            "buy_now": {
-                "active": true,
-                "text": "Buy now"
-            },
-            "related": {
-                "active": true,
-                "title": "Related products"
-            },
-            "upsell": {
-                "active": true,
-                "title": "Special offer for you"
-            },
-            "reviews": {
-                "active": true,
-                "title": "Our customers reviews"
-            },
-            "share_buttons": {
-                "active": true,
-                "title": "Share",
-                "whatsapp": true,
-                "facebook": true,
-                "twitter": true,
-                "linkedin": true
-            }
-        },
-        "post": {
-            "share_buttons": {
-                "active": true,
-                "title": "Share",
-                "whatsapp": true,
-                "facebook": true,
-                "twitter": true,
-                "linkedin": true
-            },
-            "related": {
-                "active": true,
-                "title": "Related posts"
-            }
-        },
-        "shop": {
-            "sidebar": {
-                "active": true,
-                "collections": {
-                    "active": true,
-                    "title": "Collections"
-                },
-                "prices": {
-                    "active": true,
-                    "title": "Prices"
-                },
-                "sizes": {
-                    "active": true,
-                    "title": "Sizes"
-                },
-                "colors": {
-                    "active": true,
-                    "title": "Colors"
-                },
-                "tags": {
-                    "active": true,
-                    "title": "Tags"
-                },
-                "brands": {
-                    "active": true,
-                    "title": "Brands"
-                },
-                "categories": {
-                    "active": true,
-                    "title": "Categories"
-                },
-                "products": {
-                    "active": true,
-                    "title": "From shop"
-                }
-            },
-            "title": "Shop",
-            "description": "Find best selling products",
-            "sorts": {
-                "newest": "Newest",
-                "oldest": "Oldest",
-                "name_asc": "Name (A-Z)",
-                "name_desc": "Name (Z-A)",
-                "price_asc": "Price (low to high)",
-                "price_desc": "Price (high to low)",
-                "rating_asc": "Rating (low to high)",
-                "rating_desc": "Rating (high to low)"
-            },
-            "pagination": {
-                "limit": 12,
-                "next_text": "Next",
-                "prev_text": "Prev"
-            }
-        },
-        "blog": {
-            "sidebar": {
-                "active": true
-            },
-            "title": "Blog",
-            "description": "Our latest ",
-            "sorts": {
-                "newest": "Newest",
-                "oldest": "Oldest",
-                "name_asc": "Name (A-Z)",
-                "name_desc": "Name (Z-A)",
-                "price_asc": "Price (low to high)",
-                "price_desc": "Price (high to low)",
-                "rating_asc": "Rating (low to high)",
-                "rating_desc": "Rating (high to low)"
-            },
-            "pagination": {
-                "limit": 12,
-                "next_text": "Next",
-                "prev_text": "Prev"
-            }
-        },
-        "cart": {
-            "title": "Shopping cart",
-            "empty_text": "Your cart is empty",
-            "total_text": "Total",
-            "upsell": {
-                "active": true,
-                "title": "Special offer for you"
-            },
-            "buttons": {
-                "checkout_text": "Place Order",
-                "back_to_shop_text": "Back to shop",
-                "show_back_to_shop": true
-            },
-            "wishlist": {
-                "back_to_shop_text": "Back to shop"
-            }
-        },
-        "wishlist": {
-            "title": "Your wishlist",
-            "empty_text": "Your wishlist is empty"
-        },
-        "thanks": {
-            "title": "Thanks",
-            "description": "Thank you for your order",
-            "buttons": {
-                "back_to_shop_text": "Back to shop"
-            }
-        },
-        "_404": {
-            "title": "Thanks",
-            "description": "Thank you for your order",
-            "buttons": {
-                "back_to_shop_text": "Back to shop"
-            }
+        "brands": {
+          "active": true,
+          "title": "Brands"
         }
+      },
+      "show_navbar": true,
+      "colors": {
+        "background_color": "#242536",
+        "text_color": "#ffffff"
+      },
+      "banner": {
+        "active": true,
+        "image": null,
+        "text_color": "#ffffff",
+        "title": "Delivered to your Home"
+      },
+      "content": {
+        "articles_text": "Articles found"
+      },
+      "title": "Shop",
+      "description": "Find best selling products",
+      "sorts": {
+        "sort_by_text": "Sort By",
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "name_asc": "Name (A-Z)",
+        "name_desc": "Name (Z-A)",
+        "price_asc": "Price (low to high)",
+        "price_desc": "Price (high to low)",
+        "rating_asc": "Rating (low to high)",
+        "rating_desc": "Rating (high to low)"
+      },
+      "pagination": {
+        "limit": "1",
+        "previous_text": "Previous",
+        "next_text": "Next"
+      },
+      "empty_text": "No products found",
+      "alert_text": "New Demand",
+      "account_text": "to create a new demand you need to ",
+      "account_link": "create account"
+    },
+    "product": {
+      "content": {
+        "title": "About this article :"
+      },
+      "quantity": {
+        "active": true
+      },
+      "add_to_cart": {
+        "active": true,
+        "text": "Add to cart"
+      },
+      "buy_now": {
+        "active": true,
+        "text": "Buy now"
+      },
+      "wishlist": {
+        "active": true,
+        "add_to_wishlist": "Add to Wishlist",
+        "remove_from_wishlist": "Remove from Wishlist"
+      },
+      "reference": {
+        "active": true,
+        "title": "Reference :"
+      },
+      "collections": {
+        "active": true,
+        "title": "Categories :"
+      },
+      "tags": {
+        "active": true,
+        "title": "Tags :"
+      },
+      "brands": {
+        "active": true,
+        "title": "Brand :"
+      },
+      "weight": {
+        "active": true,
+        "title": "Weight :"
+      },
+      "volume": {
+        "active": true,
+        "title": "Volume :"
+      },
+      "dimensions": {
+        "active": true,
+        "title": "Dimensions :",
+        "width_text": "Width",
+        "height_text": "Height",
+        "depth_text": "Depth"
+      },
+      "share_buttons": {
+        "active": true,
+        "title": "Share this product",
+        "whatsapp": true,
+        "facebook": true,
+        "twitter": true,
+        "linkedin": true
+      },
+      "description": {
+        "description_name": "Description",
+        "description_empty_text": "No description"
+      },
+      "reviews": {
+        "active": true,
+        "title": "Our customers reviews",
+        "reviews_name": "Reviews",
+        "reviews_empty_text": "No Reviews"
+      },
+      "upsell": {
+        "active": true,
+        "title": "Special offer for you"
+      },
+      "related": {
+        "active": true,
+        "title": "Related products",
+        "more": "Show more"
+      }
+    },
+    "cart": {
+      "texts": {
+        "navbar_text": "Shopping cart",
+        "product_text": "Product",
+        "total_product_text": "Price",
+        "subtotal_text": "SubTotal",
+        "cart_text": "Cart total",
+        "total_text": "Total",
+        "remove_all_text": "Remove all",
+        "empty_text": "Your cart is empty",
+        "cart_title": "Shipped from Morocco"
+      },
+      "quantity_text": "Quantity",
+      "features": {
+        "active": true,
+        "colors": {
+          "background_color": "#0f766e",
+          "text_color": "#ffffff"
+        },
+        "item_0": {
+          "image": null,
+          "title": "Delivery everywhere in Morocco"
+        }
+      },
+      "buttons": {
+        "order_text": "Place Order",
+        "show_shop": true,
+        "shop_text": "Back to shop"
+      },
+      "upsell": {
+        "active": true,
+        "title": "Special offer for you"
+      }
+    },
+    "wishlist": {
+      "texts": {
+        "navbar_text": "Your wishlist",
+        "title_text": "Product name",
+        "unit_price_text": "Unit Price",
+        "stock_status_text": "Stock Status",
+        "empty_text": "Your wishlist is empty"
+      },
+      "buttons": {
+        "shop_text": "Back to shop",
+        "show_cart": true,
+        "cart_text": "Add all products to cart",
+        "show_remove": true,
+        "remove_text": "Remove All"
+      }
+    },
+    "blog": {
+      "sidebar": {
+        "active": true,
+        "filter_text": "Filter posts",
+        "categories": {
+          "active": true,
+          "title": "Categories"
+        },
+        "products": {
+          "active": true,
+          "title": "From shop"
+        }
+      },
+      "title": "Blog",
+      "description": "Our latest posts",
+      "banner": {
+        "active": true,
+        "image": null,
+        "text_color": "#ffffff",
+        "title": "Explore Our Blogs"
+      },
+      "content": {
+        "blogs_text": "Blogs"
+      },
+      "sorts": {
+        "sort_by": "Sort By :",
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "name_asc": "Name (A-Z)",
+        "name_desc": "Name (Z-A)"
+      },
+      "pagination": {
+        "limit": 12
+      },
+      "empty_text": "No Blogs Found",
+      "categories": {
+        "active": true
+      },
+      "date_creation": {
+        "active": true
+      },
+      "button": {
+        "text": "More Details"
+      }
+    },
+    "post": {
+      "sidebar": {
+        "active": true
+      },
+      "related": {
+        "active": true,
+        "title": "Related posts",
+        "show_more_text": "More posts"
+      },
+      "share_buttons": {
+        "active": true,
+        "title": "Share",
+        "whatsapp": true,
+        "facebook": true,
+        "twitter": true,
+        "linkedin": true
+      }
+    },
+    "thanks": {
+      "buttons": {
+        "order_text": "Back to shop",
+        "shop_text": "Back to shop",
+        "track_text": "Track Order"
+      },
+      "texts": {
+        "title": "Thanks",
+        "description": "Thank you for your order"
+      }
+    },
+    "_404": {
+      "title": "Page not found",
+      "description": "We are sorry, but the page you requested was not found",
+      "buttons": {
+        "back_to_shop_text": "Back to shop"
+      }
     }
+  },
+  "temp": {
+    "newField": "Try again"
+  }
 }
